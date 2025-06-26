@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/img.png' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap-5.3.6-dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/bootstrap-5.3.6-dist/js/bootstrap.min.js' %}"></script>
+
+    <style>
+        img{
+            height: 150px;
+            width: 200px;
+
+        }
+    </style>
+
+</head>
+<body>
+<h1 class="text-center text-success">Property Information</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur dolor est eveniet perferendis tempora. Aliquid animi at, cum eius error expedita fugit impedit nam provident tempora unde, velit voluptatum.</span><span>Accusantium aperiam atque consequatur error fuga illo libero nihil numquam porro quibusdam reiciendis, reprehenderit saepe sapiente temporibus vero vitae voluptatibus. Accusantium doloremque dolorum enim ex magnam nobis possimus saepe temporibus.</span></p>
+<table class="table table-hover table-bordered container">
+    <tr>
+        <th>Property Name</th>
+        <th>Property image</th>
+        <th>Property owner</th>
+        <th>Location</th>
+        <th>Price</th>
+    </tr>
+
+
+
+      <tr>
+        <th>Kipro centre</th>
+        <th><img src="{% static 'images/property4.png' %}" alt="" class="rounded-circle"></th>
+        <th>James kariuki</th>
+        <th>Westlands</th>
+        <th>ksh.20 million</th>
+    </tr>
+
+
+       <tr>
+        <th>Kipro centre</th>
+        <th><img src="{% static 'images/property5.png' %}" alt="" class="rounded-circle"></th>
+        <th>Sarah Akinyi</th>
+        <th>Westlands</th>
+        <th>ksh.25 million</th>
+    </tr>
+
+
+
+        <tr>
+        <th>Kipro centre</th>
+        <th><img src="{% static 'images/property6.png' %}" alt="" class="rounded-circle" ></th>
+        <th>Nathan Hakim</th>
+        <th>Westlands</th>
+        <th>ksh.30 million</th>
+    </tr>
+
+
+  <tr>
+        <th>Kipro centre</th>
+        <th><img src="{% static 'images/property7.png' %}" alt="" class="rounded-circle" ></th>
+        <th>Baraka Wema</th>
+        <th>Westlands</th>
+        <th>ksh.35 million</th>
+    </tr>
+</table>
+
+
+</body>
+</html>
